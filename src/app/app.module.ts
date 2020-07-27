@@ -3,10 +3,12 @@ import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
 import { HttpClientModule } from '@angular/common/http';
+import { BasicComputationComponent } from './basic-computation/basic-computation.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    BasicComputationComponent
   ],
   imports: [
     BrowserModule,

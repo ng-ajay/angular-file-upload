@@ -32,5 +32,4 @@ export class AppComponent implements OnInit {
       console.log('response receved is ', event);
     });
   }
-
 }
